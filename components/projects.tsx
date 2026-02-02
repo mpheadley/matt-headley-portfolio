@@ -54,9 +54,9 @@ export function Projects() {
               className="group"
             >
               {/* Screenshots - Desktop left, Mobile right */}
-              <div className="flex flex-col md:flex-row gap-6 md:gap-8 items-end mb-8">
+              <div className="flex flex-col md:flex-row gap-6 md:gap-8 items-center md:items-end mb-8">
                 {/* Desktop Screenshot */}
-                <div className="flex-1 relative group/desktop">
+                <div className="w-full md:flex-1 relative group/desktop">
                   <div className="relative aspect-[1440/900] rounded-lg overflow-hidden bg-card border border-border shadow-lg transition-all duration-300 group-hover/desktop:shadow-primary/25 group-hover/desktop:shadow-2xl group-hover/desktop:-translate-y-2">
                     <Image
                       src={project.desktopImage}
