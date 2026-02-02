@@ -68,12 +68,12 @@ export function Projects() {
                 </div>
 
                 {/* Mobile Screenshot in Phone Frame */}
-                <div className="w-32 md:w-40 flex-shrink-0 self-center md:self-end">
-                  <div className="relative bg-gray-900 rounded-[2rem] p-2 shadow-2xl">
-                    {/* Phone notch */}
-                    <div className="absolute top-0 left-1/2 -translate-x-1/2 w-16 h-5 bg-gray-900 rounded-b-xl z-10" />
+                <div className="w-28 md:w-36 flex-shrink-0 self-center md:self-end">
+                  <div className="relative bg-gray-900 rounded-[2.5rem] p-1.5 shadow-2xl">
+                    {/* Dynamic Island */}
+                    <div className="absolute top-2 left-1/2 -translate-x-1/2 w-12 h-3 bg-black rounded-full z-10" />
                     {/* Screen */}
-                    <div className="relative aspect-[375/667] rounded-[1.5rem] overflow-hidden bg-card">
+                    <div className="relative aspect-[390/844] rounded-[2rem] overflow-hidden bg-card">
                       <Image
                         src={project.mobileImage}
                         alt={`${project.title} - Mobile view`}
