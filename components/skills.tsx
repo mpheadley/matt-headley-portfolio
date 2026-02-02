@@ -9,7 +9,7 @@ const skills = [
   "Custom Websites & Mobile-Friendly Design",
   "E-Commerce Setup (Shopify, Stripe, Square, PayPal)",
   "Booking & Contact Forms",
-  "Basic Online Workflows & Admin Tools (streamlining forms, booking systems, and other digital processes)",
+  "Basic Online Workflows & Admin Tools - streamlining forms, booking systems, and other digital processes",
   "Local SEO & Online Visibility",
   "Modern Web Features & Interactive Sites (built with React / Next.js)",
   "Visual Design with Canva",
