@@ -69,13 +69,13 @@ export function Navigation() {
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
           <div className="md:hidden py-4 border-t border-border">
-            <ul className="flex flex-col gap-4">
+            <ul className="flex flex-col gap-4 text-right">
               {navLinks.map((link) => (
                 <li key={link.href}>
                   <a
                     href={link.href}
                     onClick={() => setIsMobileMenuOpen(false)}
-                    className="block text-muted-foreground hover:text-foreground transition-colors"
+                    className="block uppercase text-muted-foreground hover:text-foreground transition-colors"
                   >
                     {link.label}
                   </a>
