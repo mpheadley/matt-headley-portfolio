@@ -35,9 +35,8 @@ export function Hero() {
         <AnimateOnScroll animation="fade-up" delay={300}>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
             I help small businesses, churches, and community groups get online
-            with clear, easy-to-maintain websites that just work.
+            with clear, easy-to-maintain websites that just work, working locally in Calhoun County and Jacksonville, Al, or remotely.
           </p>
-          <p>I work locally in Calhoun County and Jacksonville, Al, or remotely.</p>
         </AnimateOnScroll>
 
         <AnimateOnScroll animation="fade-up" delay={400}>
