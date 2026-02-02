@@ -31,7 +31,7 @@
                   You work directly with me, whether locally in Calhoun County or remotely.                                   
                 </p>                                                                                                          
                 <p>                                                                                                           
-                  I studied at Jacksonville State University and Northern Seminary and previously worked as a pastor,         
+                  I studied at Jacksonville State University and Northern Seminary and previously worked as a pastor and small business founder,         
                   which gives me perspective on community-oriented organizations.                                             
                   I enjoy helping clients bring their ideas online in a way that's clear, simple, and effective.              
                 </p>                                                                                                          
