@@ -25,8 +25,9 @@ export function About() {
               <p>
                 Hi, I’m Matt. I live in Jacksonville, Alabama, and build websites for small businesses, community groups, 
                 and churches—sites that look good, work on phones, and solve real communication and workflow problems.
-              <p>
-                I focus on practical solutions: managing bookings, inquiries, and updates without friction. 
+              </p>
+              <p>  
+              I focus on practical solutions: managing bookings, inquiries, and updates without friction. 
                 You work directly with me, whether locally in Calhoun County or remotely.
               </p>
               <p>
