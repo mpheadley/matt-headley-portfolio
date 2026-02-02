@@ -24,7 +24,7 @@
               <div className="space-y-4 text-muted-foreground leading-relaxed">                                               
                 <p>                                                                                                           
                   Hi, I'm Matt. I live in Jacksonville, Alabama, and build websites for small businesses, community groups,   
-                  and churches—sites that look good, work on phones, and solve real communication and workflow problems.      
+                  and churches—sites that look good, work on phones, and simplify communication and workflows.      
                 </p>                                                                                                          
                 <p>                                                                                                           
                   I focus on practical solutions: managing bookings, inquiries, and updates without friction.                 
