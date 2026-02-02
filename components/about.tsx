@@ -17,46 +17,45 @@
             </div>                                                                                                            
           </AnimateOnScroll>                                                                                                  
                                                                                                                               
-          {/* Top row: Text + Headshot */}                                                                                    
-          <div className="grid md:grid-cols-3 gap-12 items-center mb-12">                                                     
-            {/* Text Content */}                                                                                              
-            <AnimateOnScroll animation="fade-right" className="md:col-span-2">                                                
-              <div className="space-y-4 text-muted-foreground leading-relaxed">                                               
-                <p>                                                                                                           
-                  Hi, I'm Matt. I live in Jacksonville, Alabama, and build websites for small businesses, community groups,   
-                  and churches—sites that look good, work on phones, and simplify communication and workflows.      
-                </p>                                                                                                          
-                <p>                                                                                                           
-                  I focus on practical solutions: managing bookings, inquiries, and updates without friction.                 
-                  You work directly with me, whether locally in Calhoun County or remotely.                                   
-                </p>                                                                                                          
-                <p>                                                                                                           
-                  I studied at Jacksonville State University and Northern Seminary and previously worked as a pastor and small business founder,         
-                  which gives me perspective on community-oriented organizations.                                             
-                  I enjoy helping clients bring their ideas online in a way that's clear, simple, and effective.              
-                </p>                                                                                                          
-                <p>                                                                                                           
-                  Whether you need a simple website or a few interactive features,                                            
-                  my goal is to make your online presence clear, practical, and                                               
-                  stress-free—so you can focus on what matters most.                                                          
-                </p>                                                                                                          
-              </div>                                                                                                          
-            </AnimateOnScroll>                                                                                                
-                                                                                                                              
-            {/* Headshot */}                                                                                                  
-            <AnimateOnScroll animation="fade-left">                                                                           
-              <div className="relative group max-w-64 mx-auto">                                                               
-                <div className="relative aspect-[3/4] rounded-lg overflow-hidden bg-card shadow-lg transition-all duration-300
-   group-hover:shadow-primary/25 group-hover:shadow-2xl group-hover:-translate-y-2">                                          
-                  <Image                                                                                                      
-                    src="/images/headshot-matt.jpg"                                                                           
-                    alt="Matt Headley"                                                                                        
-                    fill                                                                                                      
-                    className="object-cover object-top"                                                                       
-                  />                                                                                                          
-                </div>                                                                                                        
-              </div>                                                                                                          
-            </AnimateOnScroll>                                                                                                
+          {/* Top row: Text + Headshot */}
+          <div className="flex flex-col md:grid md:grid-cols-3 gap-12 items-center mb-12">
+            {/* Text Content */}
+            <AnimateOnScroll animation="fade-right" className="md:col-span-2 order-2 md:order-1">
+              <div className="space-y-4 text-muted-foreground leading-relaxed">
+                <p>
+                  Hi, I'm Matt. I live in Jacksonville, Alabama, and build websites for small businesses, community groups,
+                  and churches—sites that look good, work on phones, and simplify communication and workflows.
+                </p>
+                <p>
+                  I focus on practical solutions: managing bookings, inquiries, and updates without friction.
+                  You work directly with me, whether locally in Calhoun County or remotely.
+                </p>
+                <p>
+                  I studied at Jacksonville State University and Northern Seminary and previously worked as a pastor and small business founder,
+                  which gives me perspective on community-oriented organizations.
+                  I enjoy helping clients bring their ideas online in a way that's clear, simple, and effective.
+                </p>
+                <p>
+                  Whether you need a simple website or a few interactive features,
+                  my goal is to make your online presence clear, practical, and
+                  stress-free—so you can focus on what matters most.
+                </p>
+              </div>
+            </AnimateOnScroll>
+
+            {/* Headshot */}
+            <AnimateOnScroll animation="fade-left" className="order-1 md:order-2">
+              <div className="relative group max-w-64 mx-auto">
+                <div className="relative aspect-[3/4] rounded-lg overflow-hidden bg-card shadow-lg transition-all duration-300 group-hover:shadow-primary/25 group-hover:shadow-2xl group-hover:-translate-y-2">
+                  <Image
+                    src="/images/headshot-matt.jpg"
+                    alt="Matt Headley"
+                    fill
+                    className="object-cover object-top"
+                  />
+                </div>
+              </div>
+            </AnimateOnScroll>
           </div>                                                                                                              
                                                                                                                               
           {/* Family Photo - wider, below */}                                                                                 
