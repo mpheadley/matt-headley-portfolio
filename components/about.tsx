@@ -23,17 +23,16 @@ export function About() {
           <AnimateOnScroll animation="fade-right" className="md:col-span-2">
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                Hi, I'm Matt. I live and work locally in Jacksonville, Calhoun
-                County, Alabama, but I'm also open to working remotely. I build
-                websites for small businesses, churches, and community
-                organizations—sites that look good, work on phones, and are easy
-                to maintain.
+                Hi, I’m Matt. I live in Jacksonville, Alabama, and build websites for small businesses, community groups, 
+                and churches—sites that look good, work on phones, and solve real communication and workflow problems.
+              <p>
+                I focus on practical solutions: managing bookings, inquiries, and updates without friction. 
+                You work directly with me, whether locally in Calhoun County or remotely.
               </p>
               <p>
-                I focus on simplicity: straightforward websites that are easy to
-                manage and don't break or confuse you. I can also help set up
-                basic online workflows and admin tools to make managing your
-                site and business simpler.
+                I studied at Jacksonville State University and Northern Seminary and previously worked as a pastor, 
+                which gives me perspective on community-oriented organizations. 
+                I enjoy helping clients bring their ideas online in a way that’s clear, simple, and effective.
               </p>
               <p>
                 Whether you need a simple website or a few interactive features,
