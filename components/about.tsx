@@ -1,4 +1,4 @@
-⏺ "use client";                                                                                                               
+"use client";                                                                                                               
                                                                                                                               
   import Image from "next/image";                                                                                             
   import { AnimateOnScroll } from "@/components/ui/animate-on-scroll";                                                        
