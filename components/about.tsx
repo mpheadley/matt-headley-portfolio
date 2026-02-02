@@ -44,7 +44,7 @@
             </AnimateOnScroll>
 
             {/* Headshot */}
-            <AnimateOnScroll animation="fade-left" className="order-1 md:order-2">
+            <AnimateOnScroll animation="fade-up" className="order-1 md:order-2 w-full">
               <div className="relative group max-w-64 mx-auto">
                 <div className="relative aspect-[3/4] rounded-lg overflow-hidden bg-card shadow-lg transition-all duration-300 group-hover:shadow-primary/25 group-hover:shadow-2xl group-hover:-translate-y-2">
                   <Image
