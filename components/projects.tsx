@@ -68,8 +68,8 @@ export function Projects() {
                 </div>
 
                 {/* Mobile Screenshot in Phone Frame */}
-                <div className="w-28 md:w-36 flex-shrink-0 self-center md:self-end">
-                  <div className="relative bg-gray-900 rounded-[2.5rem] p-1.5 shadow-2xl">
+                <div className="w-28 md:w-36 flex-shrink-0 self-center md:self-end group/mobile">
+                  <div className="relative bg-gray-900 rounded-[2.5rem] p-1.5 shadow-2xl transition-all duration-300 group-hover/mobile:shadow-primary/25 group-hover/mobile:shadow-2xl group-hover/mobile:-translate-y-2">
                     {/* Dynamic Island */}
                     <div className="absolute top-2 left-1/2 -translate-x-1/2 w-12 h-3 bg-black rounded-full z-10" />
                     {/* Screen */}
